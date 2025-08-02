@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CookMap</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <nav
+      class="bg-gray-800 fixed flex md:justify-between p-4 shadow-2xl sm:p-9 w-full z-10"
+    >
+      <div class="items-center flex flex-1 sm:flex-none">
+        <svg
+          id="Flat"
+          height="512"
+          viewBox="0 0 64 64"
+          width="512"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-full w-12 inline mr-3"
+        >
+          <g id="Stroke_copy_2" data-name="Stroke copy 2">
+            <path d="m42 29h-20l-2-16h24z" fill="#57b7eb" />
+            <path
+              d="m21 20.63a5.82 5.82 0 0 0 2 .37 5.94 5.94 0 0 0 4.13-1.66 8 8 0 0 0 9.74 0 5.94 5.94 0 0 0 4.13 1.66 5.82 5.82 0 0 0 2-.37l1-7.63h-24z"
+              fill="#4891d3"
+            />
+            <path
+              d="m41 7a5.91 5.91 0 0 0 -1.9.31 8 8 0 0 0 -14.2 0 5.91 5.91 0 0 0 -1.9-.31 6 6 0 0 0 0 12 5.94 5.94 0 0 0 4.13-1.66 8 8 0 0 0 9.74 0 5.94 5.94 0 0 0 4.13 1.66 6 6 0 0 0 0-12z"
+              fill="#aae1f9"
+            />
+            <path
+              d="m42 17a5.94 5.94 0 0 1 -4.13-1.66 8 8 0 0 1 -9.74 0 5.94 5.94 0 0 1 -4.13 1.66 6 6 0 0 1 -6-6 5.84 5.84 0 0 1 .23-1.63 6 6 0 0 0 8.9 8 8 8 0 0 0 9.74 0 6 6 0 0 0 9.9-2.71 6 6 0 0 1 -4.77 2.34z"
+              fill="#57b7eb"
+            />
+            <path
+              d="m35 31h-.14a1 1 0 0 1 -.86-1.14l1-7a1 1 0 0 1 1.14-.86 1 1 0 0 1 .86 1.14l-1 7a1 1 0 0 1 -1 .86z"
+              fill="#4891d3"
+            />
+            <path
+              d="m29 31a1 1 0 0 1 -1-.86l-1-7a1 1 0 0 1 2-.28l1 7a1 1 0 0 1 -.86 1.14z"
+              fill="#4891d3"
+            />
+            <path d="m22 29h20v4h-20z" fill="#57b7eb" />
+            <path
+              d="m22 29h20a0 0 0 0 1 0 0v2a0 0 0 0 1 0 0h-18a2 2 0 0 1 -2-2 0 0 0 0 1 0 0z"
+              fill="#aae1f9"
+            />
+            <path
+              d="m39.09 60.16a2.84 2.84 0 0 1 -4.13-.1l-11.42-12.62 2.82-2.83 12.64 11.39a2.84 2.84 0 0 1 .09 4.16z"
+              fill="#57b7eb"
+            />
+            <path
+              d="m33.37 58.3 3.66-4.04-3.46-3.13-3.68 3.33z"
+              fill="#4891d3"
+            />
+            <path
+              d="m39.09 57.16a2.84 2.84 0 0 1 -4.13-.1l-7.29-8.06a4.57 4.57 0 0 0 .69-.56 4.72 4.72 0 0 0 .87-1.24l-2.87-2.59-2.82 2.83 11.46 12.62a2.85 2.85 0 0 0 4.53-3.41 2.43 2.43 0 0 1 -.44.51z"
+              fill="#4891d3"
+            />
+            <rect
+              fill="#57b7eb"
+              height="14"
+              rx="5"
+              transform="matrix(.707 -.707 .707 .707 -23.77 27.59)"
+              width="10"
+              x="16.41"
+              y="35.49"
+            />
+            <path
+              d="m27.36 44.44a5 5 0 0 1 -7.07 0l-2.83-2.83a5 5 0 0 1 -1.46-3.51 5 5 0 0 0 .46 6.51l2.83 2.83a5 5 0 0 0 8.54-3.57 6.17 6.17 0 0 1 -.47.57z"
+              fill="#4891d3"
+            />
+            <path
+              d="m24.84 60.16a2.84 2.84 0 0 1 .1-4.13l12.62-11.42 2.83 2.83-11.39 12.62a2.84 2.84 0 0 1 -4.16.1z"
+              fill="#aae1f9"
+            />
+            <path
+              d="m37.57 44.61-2.87 2.59a4.93 4.93 0 0 0 .86 1.24 4.57 4.57 0 0 0 .69.56l-7.25 8.06a2.84 2.84 0 0 1 -4.13.1 2.43 2.43 0 0 1 -.4-.51 2.85 2.85 0 0 0 4.53 3.41l11.39-12.62z"
+              fill="#57b7eb"
+            />
+            <path
+              d="m35.39 40.61h10a0 0 0 0 1 0 0v3a5 5 0 0 1 -5 5 5 5 0 0 1 -5-5v-3a0 0 0 0 1 0 0z"
+              fill="#aae1f9"
+              transform="matrix(.707 .707 -.707 .707 43.37 -15.5)"
+            />
+            <path
+              d="m44.64 44.44a5 5 0 0 1 -7.07 0 5.15 5.15 0 0 1 -1.21-2 5 5 0 0 0 1.21 5 5 5 0 0 0 7.07 0l2.12-2.13-1.5-1.5z"
+              fill="#57b7eb"
+            />
+            <path
+              d="m40.39 40a1 1 0 0 1 -.7-.29 1 1 0 0 1 0-1.42l4.24-4.29a1 1 0 0 1 1.41 0 1 1 0 0 1 0 1.42l-4.24 4.24a1 1 0 0 1 -.71.34z"
+              fill="#aae1f9"
+            />
+            <path
+              d="m43.22 42.78a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.42l4.25-4.24a1 1 0 1 1 1.41 1.41l-4.24 4.25a1 1 0 0 1 -.71.29z"
+              fill="#aae1f9"
+            />
+            <path
+              d="m46.05 45.61a1 1 0 0 1 -.71-1.71l4.24-4.24a1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.41l-4.24 4.24a1 1 0 0 1 -.71.3z"
+              fill="#57b7eb"
+            />
+          </g>
+        </svg>
+        <h1
+          class="inline text-white sm:text-3xl text-2xl font-bold self-center m-auto sm:m-0"
+        >
+          <a href="ind.html">CookMap</a>
+        </h1>
+      </div>
+      <div class="items-center flex">
+        <div class="lg:flex md:text-white hidden nav-links">
+          <div class="flex -mb-px mr-8">
+            <a
+              class="no-underline text-grey-dark border-b-2 uppercase tracking-wide font-bold text-xs py-3 mr-8 border-transparent text-sm tracking-widest"
+              href="#hero"
+              >Home</a
+            >
+          </div>
+          <div class="flex -mb-px mr-8">
+            <a
+              class="no-underline text-grey-dark border-b-2 uppercase tracking-wide font-bold text-xs py-3 mr-8 border-transparent text-sm tracking-widest"
+              href="searchrecipe.html"
+              >Search Recipe</a
+            >
+          </div>
+          <!-- <div class="flex -mb-px mr-8">
+            <a
+              class="no-underline text-grey-dark border-b-2 uppercase tracking-wide font-bold text-xs py-3 mr-8 border-transparent text-sm tracking-widest"
+              href="#newRecipe"
+              >New Recipe</a
+            >
+          </div> -->
+        </div>
+        <div>
+          <a
+            href="ingredients.html"
+            class="border border-white hover:bg-white hover:border-transparent hover:text-teal-500 inline-block leading-none lg:mt-0 px-4 py-2 rounded text-sm text-white getRandomHeader"
+            >Search by Ingredients</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div
+      class="text-white mt-0 border border-blue-800 py-0 w-full h-full"
+      style="background-image:url('https://demos.onepagelove.com/html/leno/images/header-background.jpg')"
+    >
+      <section id="hero" class="container flex h-screen mx-auto w-full">
+        <div
+          class="flex flex-col items-center justify-center md:text-left text-center text-white w-full"
+        >
+          <form action="#" class="w-9/12" onsubmit="submitHandler(event)">
+            <div class="mb-4">
+              <label
+                class="block text-2xl text-sm font-bold mb-2 text-left"
+                for="username"
+              >
+               
+              </label>
+              <!-- <div class="flex">
+                <input
+                  class="appearance-none border focus:bg-white focus:outline-none focus:shadow-outline leading-tight px-3 px-4 py-2 py-4 rounded shadow text-gray-700 w-full"
+                  id="search"
+                  type="text"
+                  placeholder="search here..."
+                /> -->
+                <!-- <button
+                  class="bg-blue-500 hover:bg-blue-400 p-3 ml-2 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+                  type="submit"
+                > -->
+                  <!-- <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="nonzero"
+                      stroke="none"
+                      stroke-width="1"
+                      stroke-linecap="butt"
+                      stroke-linejoin="miter"
+                      stroke-miterlimit="10"
+                      stroke-dasharray=""
+                      stroke-dashoffset="0"
+                      font-family="none"
+                      font-weight="none"
+                      font-size="none"
+                      text-anchor="none"
+                      style="mix-blend-mode: normal"
+                    >
+                      <path d="M0,172v-172h172v172z" fill="none"></path>
+                      <g fill="#ffffff">
+                        <path
+                          d="M64.5,14.33333c-27.6214,0 -50.16667,22.54527 -50.16667,50.16667c0,27.6214 22.54527,50.16667 50.16667,50.16667c12.52732,0 23.97256,-4.67249 32.7819,-12.31771l3.05143,3.05143v9.26628l43,43l14.33333,-14.33333l-43,-43h-9.26628l-3.05143,-3.05143c7.64521,-8.80934 12.31771,-20.25458 12.31771,-32.7819c0,-27.6214 -22.54527,-50.16667 -50.16667,-50.16667zM64.5,28.66667c19.87509,0 35.83333,15.95824 35.83333,35.83333c0,19.87509 -15.95825,35.83333 -35.83333,35.83333c-19.87509,0 -35.83333,-15.95825 -35.83333,-35.83333c0,-19.87509 15.95824,-35.83333 35.83333,-35.83333z"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form> -->
+          <div class="flex justify-left flex-col items-left">
+            <h1 class="text-5xl font-bold uppercase text-left text-gray-300">
+              Search,
+            </h1> <br>
+            <span style="font-size: 3rem;">What's in your house</span>
+            <p class="w-1/2 text-left text-gray-300 my-12" style="font-size: 1.5rem;">
+                Unlock culinary creativity!  Ingredients become delicious meals with our recipe finder. 🤤
+            </p>
+          </div>
+          <a
+            href="searchrecipe.html"
+            class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-4 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded mt-20"
+          >
+            Search Recipe
+          </a>
+        </div>
+      </section>
+      <!-- <section id="mealPlan" class="bg-gray-800 h-screen flex">
+        <div class="container m-auto">
+          <div class="flex justify-center flex-col items-center">
+            <h1 class="text-5xl font-bold uppercase text-center text-gray-300">
+              Meal Plan
+            </h1>
+            <p class="w-1/2 text-center text-gray-300 my-10">
+              We give you a meal plan with three meals per day (breakfast,
+              lunch, and dinner). 🤤
+            </p>
+          </div>
+          <div class="flex flex-wrap data-content"></div>
+        </div>
+      </section>
+      <section id="newRecipe" class="py-32">
+        <div class="container m-auto">
+          <div class="flex justify-center flex-col items-center">
+            <h1
+              class="text-5xl font-bold uppercase text-center text-gray-300 my-6 sm:my-12"
+            >
+              New Recipes
+            </h1>
+          </div>
+          <div class="flex flex-wrap new-recipes-data"></div>
+        </div>
+      </section>
+    </div> -->
+
+    <!-- <footer class="bg-gray-800 flex text-white flex-col">
+      <div class="container mx-auto w-full py-20">
+        <div class="flex items-center justify-center">
+          <a
+            class="block flex items-center hover:text-gray-700"
+            href="https://github.com/nbedevi/what-do-I-cook"
+          >
+            <svg
+              class="fill-current w-10 h-10"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <title>GitHub</title>
+              <path
+                d="M10 0a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48l-.01-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69a3.6 3.6 0 0 1 .1-2.64s.84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.4.1 2.64.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85l-.01 2.75c0 .26.18.58.69.48A10 10 0 0 0 10 0"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div> -->
+      <p class="text-xs text-center mb-2">
+        <!-- Made with <span class="text-sm text-red">❤️</span> by Nureddin Bedevi -->
+      </p>
+    </footer>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!-- <script src="assets/script.js" async defer></script> -->
+  </body>
+</html>
