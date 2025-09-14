@@ -1,74 +1,84 @@
-🍳 CookMap – Your Ingredient-Based Recipe Finder
+🍳 CookMap: Smart Recipe Ingredient Lookup via API
+“Minimize food waste. Maximize cooking creativity.”
+---
 
-CookMap is a smart and user-friendly web application that helps users discover recipes based on the ingredients they already have at home. Just type what’s in your kitchen, and CookMap will suggest tasty meals using real-time data from the Spoonacular API.
+📖 Table of Contents
+1. Overview
+2. Features
+3. Technology Stack
+4. Installation & Usage
+5. Project Workflow
+6. Impact
+7. Learnings
+8. Screenshots
+---
+📝 Overview
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+CookMap is an interactive web application that helps users discover recipes based on the ingredients they already have.
+By integrating live data from the Spoonacular API, it provides personalized meal suggestions in real time, helping reduce food waste and making meal planning smarter.
+---
 ✨ Features
+✅ Input available ingredients → get instant recipe suggestions
+✅ Search by dish name → discover new recipes
+✅ User-friendly interface with live recipe data
+✅ Promotes food sustainability ♻
+---
 
-✅ Search for recipes using available ingredients
-✅ View detailed cooking steps and nutrition info
-✅ Clean, responsive interface for all devices
-✅ Built with Flask and JavaScript
-✅ Uses Spoonacular’s powerful Recipe API
+🛠 Technology Stack
+Frontend: HTML, CSS, JavaScript
+Backend: Python (Flask)
+API: Spoonacular API (real-time recipes)
+Other Tools: GitHub for version control
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
+⚙ Installation & Usage
 
-🛠 Tech Stack
-
-🖥 Frontend: HTML, CSS, JavaScript
-⚙ Backend: Python (Flask)
-🌐 API: Spoonacular API
-🧰 Tools: VS Code, Git
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🚀 Getting Started
-
-⿡ Clone the repository
-
+1. Clone the repository:
 git clone https://github.com/sameeksha2999/cookmap.git
 cd cookmap
 
-⿢ Set up the backend
 
-cd backend
+2. Install dependencies:
 pip install -r requirements.txt
-python recipe.py
 
-🟢 Server will run at: http://127.0.0.1:5000
 
-⿣ Launch the frontend
+3. Run the Flask server:
+python app.py
 
-Open index.html from the frontend/ folder using Live Server or your browser.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. Open your browser:
+http://127.0.0.1:5000/
 
-📁 Project Structure
 
-cookmap/
-├── frontend/
-│   ├── index.html
-│   ├── ingredients.html
-│   ├── style1.css
-│   ├── style2.css
-│   ├── script.js
-│   └── script2.js
-├── backend/
-│   └── recipe.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔄 Project Workflow
+1. User inputs ingredients or dish name.
+2. Flask backend sends request to Spoonacular API.
+3. API returns recipes.
+4. CookMap displays recipe list with details & instructions.
 
-🌱 Future Improvements
+---
+🌍 Impact
+Solves the everyday question: “What can I cook with what I have?”
+Reduces food waste through smarter ingredient usage.
+Encourages smarter meal planning.
 
-🔄 Ingredient substitution suggestions
-🧠 AI-powered meal planning
-🎙 Voice-based recipe assistant
-💾 Save/favorite recipes with accounts
-📊 Filter by nutrition, cuisine, or diet
+---
+📚 Learnings
+Hands-on experience with API integration and full-stack web development.
+Handling real-time API data in a web application.
+Improving design and user experience for end users.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
+
+📸 Screenshots
+(Add 1–2 app screenshots here for better visualization)
+
+---
+
+👩‍💻 Developed by Sameeksha
+🎓 B.E. in Artificial Intelligence & Data Science
+🌐 GitHub: sameeksha2999
+🔗 LinkedIn: linkedin.com/in/sameekshas
 
