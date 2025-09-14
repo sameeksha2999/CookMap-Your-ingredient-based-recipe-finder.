@@ -16,12 +16,18 @@
 
 CookMap is an interactive web application that helps users discover recipes based on the ingredients they already have.
 By integrating live data from the Spoonacular API, it provides personalized meal suggestions in real time, helping reduce food waste and making meal planning smarter.
+
 ---
 ✨ Features
+
 ✅ Input available ingredients → get instant recipe suggestions
+
 ✅ Search by dish name → discover new recipes
+
 ✅ User-friendly interface with live recipe data
+
 ✅ Promotes food sustainability ♻
+
 ---
 
 🛠 Technology Stack
@@ -70,12 +76,7 @@ Hands-on experience with API integration and full-stack web development.
 Handling real-time API data in a web application.
 Improving design and user experience for end users.
 
----
 
-📸 Screenshots
-(Add 1–2 app screenshots here for better visualization)
-
----
 
 👩‍💻 Developed by Sameeksha
 🎓 B.E. in Artificial Intelligence & Data Science
